@@ -1,10 +1,13 @@
 /* The for principles of "this";
 * in your own words. explain the four principle for the "this" keyword below.
 *
-* 1. global binding
-* 2. implicit binding
-* 3. new binding
-* 4. explicito binding
+* 1. global binding: This is the default object that "this" binds to. It is also known as window binding. 
+
+* 2. implicit binding: general rule is anthing left of the "." is what is bound to the "this " keyword. Using ".this" allows one to retrieve  values in objects.
+
+* 3. new binding: new binding is referred to when we use a constructor function to instantiate a new object. 
+
+* 4. explicit binding: this type of binding is when you pass in values that you want "this" to bind to.
 *
 * write out a code example of each explanation above
 */
